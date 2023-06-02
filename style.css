@@ -1,0 +1,57 @@
+body {
+    background-image: url("bg.jpeg");
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    color: white;
+}
+
+h3 {
+    color: white;
+    width: 30%;
+    padding: 10px;
+}
+
+#btn1 {
+    font-size: 25px;
+    color: black;
+}
+
+#a1 {
+    color: black;
+}
+
+#a2 {
+    color: red;
+}
+
+#a1:hover {
+    text-decoration: none;
+}
+
+#a2:hover {
+    color: maroon;
+    text-decoration: none;
+}
+
+#status {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+canvas {
+    border-radius: 15px;;
+    border-width: 7px;
+    border-style: solid;
+    border-color: darkslategray;
+    background-color: beige;
+    opacity: 0.95;
+}
+
+#input1 {
+    width: 25%
+}
